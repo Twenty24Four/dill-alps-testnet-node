@@ -54,27 +54,29 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
 1- 首先，在 Alps 频道向龙头机器人申请一个代币（$request 是你的钱包地址）。请使用与您在节点中创建的钱包不同的钱包。
 
-2- 访问 https://staking.dill.xyz/。
+2- 访问 https://staking.dill.xyz/
 
 > 注意
 > 建议在节点同步后再执行定投操作。请使用 repo 底部的命令检查节点的同步状态。
 > 请注意，您只能向 Faucet 申请一次令牌！
 
-[图片](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
 
 3- 您将把```deposit_data-xxxxx.json```文件上传到该网站。您可以从服务器上的 ```/dill/validator_keys``` 目录中找到并获取该文件（您可以使用 WinSCP、Mobaxterm 等应用程序）。
 
-4- 将```Deposit_data-xxxx.json``文件上传到网站后，点击连接到 MetaMask，确保有足够的测试令牌（>3600 DILL）
+4- 将```Deposit_data-xxxx.json```文件上传到网站后，点击连接到 MetaMask，确保有足够的测试令牌（>3600 DILL）
 
-![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)
+![螢幕擷取畫面 2024-09-20 15 25 14](https://github.com/user-attachments/assets/8f4c0eda-3c43-436f-a5e2-e8f2afb14df0)
+
 
 5- 连接钱包后，按 Continue（继续）继续。然后按 ```Confirm Deposit``` 键存入代币。
 
-![Ekran görüntüsü 2024-09-14 075934](https://github.com/user-attachments/assets/8f9bcb6a-ddfd-41cf-b202-fc99e5bba489)
+![螢幕擷取畫面 2024-09-20 15 25 22](https://github.com/user-attachments/assets/650a0f96-6fdb-4aff-83bc-f03dd245d341)
+
 
 6- 完成入金流程后，您可以使用验证器公钥在页面上搜索验证器信息。您的验证器可能需要 30 分钟到 1 小时才能出现。
 
-![Ekran görüntüsü 2024-09-14 080323](https://github.com/user-attachments/assets/1539f0ca-324c-4188-97ea-a279b50d28ab)
+![螢幕擷取畫面 2024-09-20 15 25 30](https://github.com/user-attachments/assets/41608e90-9211-45f8-8f6c-38453926cc32)
+
 
 
 ## 重要命令
